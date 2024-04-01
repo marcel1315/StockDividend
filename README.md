@@ -14,11 +14,23 @@
 
 - H2 Database
 
+    - url: jdbc:h2:mem:dividends
+
+    - localhost/h2-console 로 접속 가능
+
 - Redis 7.2.4
+
+    - 주소 localhost:6379
 
 - JPA
 
 - Jsoup
+
+- Logback
+
+    - /mylog.log 파일로 저장
+
+    - /log.gz 확장자 파일로 archive
 
 # API
 
