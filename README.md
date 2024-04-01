@@ -66,6 +66,11 @@
 
     - POST /company
 
+    - 요청 헤더
+        ```json
+        "Authorization": "Bearer [signin token]"
+        ```
+
     - 요청 본문 예시
 
         ```json
@@ -85,6 +90,11 @@
 
     - GET /company
 
+    - 요청 헤더
+        ```json
+        "Authorization": "Bearer [signin token]"
+        ```
+
     - 서비스에서 관리하고 있는 모든 회사 목록을 반환
 
     - 반환 결과는 Page 인터페이스 형태
@@ -92,6 +102,11 @@
 - 회사 정보 삭제 (ROLE_WRITE 필요)
 
     - DELETE /company/{ticker}
+
+    - 요청 헤더
+        ```json
+        "Authorization": "Bearer [signin token]"
+        ```
 
     - ticker 에 해당하는 회사 정보 삭제
 
